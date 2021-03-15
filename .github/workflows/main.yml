@@ -20,4 +20,4 @@ jobs:
           heroku_email: "sahilrajput03@gmail.com"
           healthcheck: "https://simple-app-11-10.herokuapp.com/health"
           checkstring: "ok"
-          delay: 20
+          delay: 21
