@@ -1,6 +1,7 @@
 # Exercise: 11.10
 
-Deployed @ https://simple-app-11-10.herokuapp.com/
+- Deployed @ https://simple-app-11-10.herokuapp.com/
+- App name @ simple-app-11-10
 
 ## For error - every step must define a uses or run key (interesting though)
 
