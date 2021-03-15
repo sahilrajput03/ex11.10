@@ -1,0 +1,18 @@
+name: My deployment pipeline.
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  simple_deployment_pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: deploying_now
+        uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "simple-app-11-10" #Must be unique in Heroku
+          heroku_email: "sahilrajput03@gmail.com"
