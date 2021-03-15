@@ -1,6 +1,6 @@
 // deployed @ https://simple-app-11-10.herokuapp.com/
 var cors = require("cors");
-https: const express = require("express");
+const express = require("express");
 const app = express();
 
 app.use(cors());
