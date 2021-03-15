@@ -1,5 +1,6 @@
 // - Deployed @ https://simple-app-11-10.herokuapp.com/
-// - App name @ simple-app-11-10var cors = require("cors");
+// - App name @ simple-app-11-10var
+cors = require("cors");
 const express = require("express");
 const app = express();
 
