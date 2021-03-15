@@ -10,7 +10,7 @@ app.use(express.json());
 let log = console.log;
 
 app.get("/", (req, res) => {
-  res.send("My blog app, new feat added!");
+  res.send("My blog app, new feat added 99!");
   // res.status(201).send('If you want to send custom status code.');
 });
 
