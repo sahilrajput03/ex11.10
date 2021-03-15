@@ -19,3 +19,5 @@ Visit: https://github.com/einaregilsson/beanstalk-deploy/issues/2
 ## Workflow used
 
 - AkhileshNS/heroku-deploy: https://github.com/AkhileshNS/heroku-deploy
+
+Thanks.
