@@ -1,3 +1,5 @@
+# - Deployed @ https://simple-app-11-10.herokuapp.com/
+# - App name @ simple-app-11-10
 name: My deployment pipeline.
 
 on:
