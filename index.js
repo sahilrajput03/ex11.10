@@ -13,6 +13,15 @@ app.get("/", (req, res) => {
   // res.status(201).send('If you want to send custom status code.');
 });
 
+// /health and /version are endpoints for testing via CI.
+app.get("/health", (req, res) => {
+  res.send("ok");
+});
+
+app.get("/version", (req, res) => {
+  res.send("1"); // change this string to ensure a new version deployed
+});
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, function () {

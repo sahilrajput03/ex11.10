@@ -16,3 +16,5 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "simple-app-11-10" #Must be unique in Heroku
           heroku_email: "sahilrajput03@gmail.com"
+          healthcheck: "https://simple-app-11-10.herokuapp.com/health"
+          checkstring: "ok"
