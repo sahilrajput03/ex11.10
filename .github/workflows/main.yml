@@ -21,3 +21,4 @@ jobs:
           healthcheck: "https://simple-app-11-10.herokuapp.com/health"
           checkstring: "ok"
           delay: 21
+          rollbackonhealthcheckfailed: true
